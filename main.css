@@ -116,9 +116,10 @@ body {
 .attribution {
   font-size: 0.7rem;
   text-align: center;
-  position: fixed;
+  position: relative;
   z-index: -1;
-  bottom: 0;
+  bottom: 1rem;
+  padding: 1rem 0;
   width: 100%;
 }
 .attribution a {
