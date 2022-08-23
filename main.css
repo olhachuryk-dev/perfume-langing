@@ -70,6 +70,15 @@ body {
   border: hsl(157, 38%, 18%);
 }
 
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+}
+
 @media (max-width: 670px) {
   .product {
     margin: 5%;
@@ -81,6 +90,15 @@ body {
     border-radius: 10px 10px 0 0;
     background-position: center;
     height: 80vw;
+    width: 100%;
+  }
+  .attribution {
+    font-size: 0.7rem;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    bottom: 1rem;
+    padding: 1rem 0;
     width: 100%;
   }
 }
@@ -113,15 +131,6 @@ body {
   }
 }
 
-.attribution {
-  font-size: 0.7rem;
-  text-align: center;
-  position: relative;
-  z-index: -1;
-  bottom: 1rem;
-  padding: 1rem 0;
-  width: 100%;
-}
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
