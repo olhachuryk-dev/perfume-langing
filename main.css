@@ -71,7 +71,7 @@ body {
 }
 
 @media (max-width: 670px) {
-  .product{
+  .product {
     margin: 5%;
   }
   .product-picture {
