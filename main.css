@@ -73,7 +73,7 @@ body {
 .attribution {
   font-size: 0.7rem;
   text-align: center;
-  position: relative;
+  position: fixed;
   z-index: -1;
   bottom: 0;
   width: 100%;
@@ -93,13 +93,9 @@ body {
     width: 100%;
   }
   .attribution {
-    font-size: 0.7rem;
-    text-align: center;
     position: relative;
-    z-index: -1;
     bottom: 1rem;
     padding: 1rem 0;
-    width: 100%;
   }
 }
 @media (min-width: 670px) {
